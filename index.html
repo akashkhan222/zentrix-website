@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080d1c">
+<title>ZENTRIX — Your Digital Workspace</title>
+<style>
+:root{--bg:#080d1c;--panel:#101a31;--panel2:#14213d;--line:#263653;--text:#f4f7ff;--muted:#9eacc7;--cyan:#50e3e0;--blue:#6688ff}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% 0%,#17294b 0,transparent 34%),var(--bg);color:var(--text);font:15px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:inherit;text-decoration:none}button,input,textarea{font:inherit}.wrap{max-width:1160px;margin:auto;padding:0 22px}
+header{position:sticky;top:0;z-index:5;background:#080d1ceF;border-bottom:1px solid #263653;backdrop-filter:blur(14px)}
+nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{font-weight:900;font-size:24px;letter-spacing:2px}.brand b{color:var(--cyan)}.links{display:flex;gap:22px;color:var(--muted)}.links a:hover{color:white}
+.btn{border:0;border-radius:12px;padding:11px 17px;background:linear-gradient(100deg,var(--cyan),#8ca0ff);color:#07101d;font-weight:800;cursor:pointer}
+.btn.secondary{background:#172541;color:white;border:1px solid var(--line)}.hero{padding:82px 0 60px;display:grid;grid-template-columns:1.1fr .9fr;gap:38px;align-items:center}
+.eyebrow{color:var(--cyan);font-weight:800;letter-spacing:2px;text-transform:uppercase}.hero h1{font-size:clamp(42px,6vw,72px);line-height:1.05;margin:12px 0 18px}.gradient{background:linear-gradient(90deg,#fff,var(--cyan),#8ca0ff);background-clip:text;color:transparent}
+.lead{color:var(--muted);font-size:18px;max-width:610px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.preview{background:linear-gradient(145deg,#142443,#0d1529);border:1px solid #304363;border-radius:24px;padding:24px;box-shadow:0 24px 80px #0008}.preview-top{display:flex;justify-content:space-between;color:var(--muted);font-size:13px}.orb{height:190px;margin:20px 0;border-radius:18px;background:radial-gradient(circle at 50% 45%,#50e3e055,transparent 30%),linear-gradient(135deg,#182d50,#0b1325);display:grid;place-items:center;font-size:48px;font-weight:950;letter-spacing:5px;text-shadow:0 0 30px #50e3e0}.mini-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.mini{padding:12px;background:#ffffff08;border:1px solid #ffffff12;border-radius:12px;color:var(--muted);font-size:12px}.mini strong{display:block;color:white;font-size:15px}
+section{padding:54px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:24px}.section-head h2{font-size:32px;margin:0}.muted{color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:linear-gradient(145deg,var(--panel),#0d1528);border:1px solid var(--line);border-radius:18px;padding:22px;min-height:190px}.ico{font-size:26px}.card h3{margin:10px 0 4px}.card p{color:var(--muted);margin:0 0 15px}.tag{display:inline-block;color:var(--cyan);font-size:12px;border:1px solid #50e3e044;border-radius:30px;padding:3px 9px}
+.workspace{display:grid;grid-template-columns:230px 1fr;gap:16px}.side,.mainpanel{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:18px}.side a{display:block;padding:10px;border-radius:9px;color:var(--muted)}.side a:hover{background:#ffffff0b;color:white}.mainpanel textarea{width:100%;min-height:115px;background:#0a1223;border:1px solid var(--line);border-radius:12px;color:white;padding:14px;resize:vertical}.mainpanel input{width:100%;padding:12px;background:#0a1223;border:1px solid var(--line);border-radius:10px;color:white;margin:8px 0}
+.response{margin-top:14px;padding:14px;border-radius:12px;background:#0a1223;border:1px solid var(--line);white-space:pre-wrap;min-height:58px;color:#dbe7ff}
+footer{border-top:1px solid var(--line);padding:30px 0;color:var(--muted);margin-top:40px}.notice{font-size:12px;color:#a9b8d4;margin-top:12px}
+@media(max-width:800px){.links{display:none}.hero{grid-template-columns:1fr;padding-top:55px}.cards{grid-template-columns:repeat(2,1fr)}.workspace{grid-template-columns:1fr}.side{display:flex;overflow:auto;gap:6px}.side a{white-space:nowrap}}
+@media(max-width:520px){.cards{grid-template-columns:1fr}.mini-grid{grid-template-columns:1fr}.hero h1{font-size:44px}.wrap{padding:0 16px}.section-head{display:block}}
+</style></head>
+<body>
+<header><div class="wrap"><nav><a class="brand" href="#">ZEN<b>TRIX</b></a><div class="links"><a href="#products">সার্ভিস</a><a href="#workspace">AI Workspace</a><a href="#about">আমাদের সম্পর্কে</a></div><a class="btn" href="#workspace">শুরু করুন</a></nav></div></header>
+<main>
+<div class="wrap"><div class="hero"><div><div class="eyebrow">One platform. Many possibilities.</div><h1>আপনার ডিজিটাল জগৎ,<br><span class="gradient">এক জায়গায়।</span></h1><p class="lead">ZENTRIX হলো AI, কাজের টুল, ফাইল ও প্রোডাক্টিভিটির জন্য তৈরি একটি আধুনিক ডিজিটাল ওয়ার্কস্পেস।</p><div class="actions"><a class="btn" href="#workspace">AI ব্যবহার করুন</a><a class="btn secondary" href="#products">সব সার্ভিস দেখুন</a></div></div>
+<div class="preview"><div class="preview-top"><span>ZENTRIX WORKSPACE</span><span>● SYSTEM READY</span></div><div class="orb">ZENTRIX</div><div class="mini-grid"><div class="mini"><strong>AI</strong>Smart assistant</div><div class="mini"><strong>Office</strong>Create & edit</div><div class="mini"><strong>Cloud</strong>File space</div></div></div></div></div>
+<section id="products"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Ecosystem</div><h2>এক প্ল্যাটফর্মে প্রয়োজনীয় টুলস</h2></div><span class="muted">ZENTRIX Services</span></div>
+<div class="cards">
+<div class="card"><div class="ico">✦</div><h3>ZENTRIX AI</h3><p>প্রশ্ন, আইডিয়া, লেখা ও কাজের সহকারী।</p><span class="tag">AI Assistant</span></div>
+<div class="card"><div class="ico">▤</div><h3>ZENTRIX Office</h3><p>ডকুমেন্ট, নোট ও স্প্রেডশিটের কাজের জায়গা।</p><span class="tag">Productivity</span></div>
+<div class="card"><div class="ico">☁</div><h3>ZENTRIX Cloud</h3><p>ভবিষ্যৎ ফাইল আপলোড ও সংরক্ষণের সুবিধা।</p><span class="tag">Cloud Storage</span></div>
+<div class="card"><div class="ico">◉</div><h3>ZENTRIX Account</h3><p>একটি অ্যাকাউন্ট থেকে সব সার্ভিস ব্যবহারের পরিকল্পনা।</p><span class="tag">Identity</span></div>
+<div class="card"><div class="ico">▦</div><h3>ZENTRIX Store</h3><p>টুলস ও অ্যাপ আবিষ্কারের কেন্দ্র।</p><span class="tag">Apps</span></div>
+<div class="card"><div class="ico">⚙</div><h3>Control Center</h3><p>অ্যাডমিন ও সিস্টেম পরিচালনার ড্যাশবোর্ড।</p><span class="tag">Management</span></div>
+</div></div></section>
+<section id="workspace"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Try the interface</div><h2>ZENTRIX AI Workspace</h2><p class="muted">এটি এখন ডেমো ইন্টারফেস; লাইভ AI সংযোগ পরে সার্ভারে সেট করতে হবে।</p></div></div>
+<div class="workspace"><aside class="side"><a href="#workspace">✦ AI Assistant</a><a href="#products">▤ Office</a><a href="#products">☁ Cloud</a><a href="#products">⚙ Settings</a></aside>
+<div class="mainpanel"><h3>AI Assistant</h3><p class="muted">কী নিয়ে সাহায্য চান লিখুন।</p><textarea id="prompt" placeholder="যেমন: আমার ব্যবসার জন্য একটি পরিচিতি লিখে দাও..."></textarea><div class="actions"><button class="btn" id="ask">ডেমো উত্তর দেখুন</button><button class="btn secondary" id="clear">মুছুন</button></div><div class="response" id="answer">আপনার লেখা এখানে ডেমো উত্তর হিসেবে দেখা যাবে।</div><div class="notice">নোট: এই সংস্করণে কোনো লেখা বাইরের AI সার্ভারে পাঠানো হয় না।</div></div></div></div></section>
+<section id="about"><div class="wrap"><div class="card"><div class="eyebrow">Our vision</div><h2>Built to grow with you.</h2><p class="muted">ZENTRIX-এর এই সংস্করণটি একটি responsive starter platform। নিরাপদ লগইন, বাস্তব AI, ক্লাউড স্টোরেজ এবং Office editing চালু করতে আলাদা backend ও অনুমোদিত service integration প্রয়োজন।</p></div></div></section>
+</main><footer><div class="wrap">© 2026 ZENTRIX. All rights reserved. <span style="float:right">A smarter digital workspace.</span></div></footer>
+<script>
+const promptBox=document.getElementById('prompt'),answer=document.getElementById('answer');
+document.getElementById('ask').addEventListener('click',()=>{const q=promptBox.value.trim();answer.textContent=q?`আপনার অনুরোধ: “${q}”\\n\\nএটি ZENTRIX-এর ডেমো প্রতিক্রিয়া। লাইভ AI চালু হলে এখানে AI-এর উত্তর দেখাবে।`:'আগে একটি প্রশ্ন বা কাজ লিখুন।';});
+document.getElementById('clear').addEventListener('click',()=>{promptBox.value='';answer.textContent='আপনার লেখা এখানে ডেমো উত্তর হিসেবে দেখা যাবে।';});
+</script></body></html>
